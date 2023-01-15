@@ -6,7 +6,7 @@ public class InputConverter
     {
         if (!double.TryParse(argTextInput, out var convertedNumber))
         {
-            throw new AggregateException("Expected a numeric value");
+            throw new ArgumentException("Expected a numeric value");
         }
         return convertedNumber;
     }

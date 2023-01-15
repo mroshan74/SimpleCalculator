@@ -11,7 +11,7 @@ public class CalculatorEngine
             case "+":
                 result = firstNum + secondNum;
                 break;
-            case "subract":
+            case "subtract":
             case "-":
                 result = firstNum - secondNum;
                 break;
